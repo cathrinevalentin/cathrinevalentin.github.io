@@ -138,3 +138,12 @@ main{padding: 26px 0 60px}
   color: #111;
   text-decoration: underline;
 }
+
+.mini-header{
+  padding: 20px 0 0;
+}
+
+.mini-header .cv-nav{
+  position: static;
+  justify-content: flex-end;
+}
