@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV — Cathrine Valentin Kjær</title>
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+
+<body>
+
+<header class="cv-header">
+  <div class="container">
+    <nav class="cv-nav" aria-label="Primary">
+      <a href="/index.html">Home</a>
+      <a href="/publications/">Publications</a>
+      <a href="/teaching/">Teaching</a>
+      <a href="/cv/">CV</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <section>
+    <h2 class="section-title">Curriculum Vitae</h2>
+    <div class="rule"></div>
+
+    <p class="lead">
+      A full version of my CV can be downloaded below.
+    </p>
+
+    <p style="margin-top:20px;">
+      <a href="/assets/Cathrine_Valentin_Kjaer_CV.pdf"
+         target="_blank"
+         rel="noreferrer">
+        Download CV (PDF)
+      </a>
+    </p>
+
+  </section>
+
+  <footer class="footer">
+    <p>
+      © <span id="y"></span> Cathrine Valentin Kjær
+    </p>
+  </footer>
+
+</main>
+
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
