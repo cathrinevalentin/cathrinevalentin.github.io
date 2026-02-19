@@ -57,7 +57,7 @@ a:hover{
 .cv-nav{
   position: absolute;
   top: 18px;
-  right: -20px;     /* tweak if you want it more/less to the right */
+  right: 10px;     /* tweak if you want it more/less to the right */
   margin-top: 0;
 
   display:flex;
@@ -96,12 +96,17 @@ main{padding: 26px 0 60px}
   margin:0;
   font-size: 17px;
   color: var(--text);
-  max-width: 80ch;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 
 .list{
   margin: 8px 0 0;
   padding-left: 18px;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 .item{
   margin: 10px 0;
@@ -125,9 +130,11 @@ main{padding: 26px 0 60px}
 
 /* Footer links cleaner */
 .footer a{
+  color: #2a4b7c; 
   border-bottom: none;
   font-weight: 500;
 }
 .footer a:hover{
+  color: #111;
   text-decoration: underline;
 }
