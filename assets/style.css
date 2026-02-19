@@ -99,3 +99,19 @@ main{padding: 26px 0 60px}
   font-size: 12px;
   color: var(--muted);
 }
+
+/* ---------------------------------------------------
+   Change: move ONLY the menu to the top-right corner
+   (keeps name/subtitle/meta centered)
+--------------------------------------------------- */
+.cv-header{
+  position: relative;
+}
+
+.cv-nav{
+  position: absolute;
+  top: 18px;      /* tweak if you want it higher/lower */
+  right: 0px;     /* tweak to add padding from the edge */
+  margin-top: 0;  /* override the previous margin-top */
+  justify-content: flex-end;
+}
