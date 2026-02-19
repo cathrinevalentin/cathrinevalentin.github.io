@@ -100,10 +100,6 @@ main{padding: 26px 0 60px}
   color: var(--muted);
 }
 
-/* ---------------------------------------------------
-   Change: move ONLY the menu to the top-right corner
-   (keeps name/subtitle/meta centered)
---------------------------------------------------- */
 .cv-header{
   position: relative;
 }
