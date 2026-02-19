@@ -153,3 +153,28 @@ main{padding: 26px 0 60px}
   font-size: 14px;
   color: var(--muted);
 }
+
+/* ---------- Mobile adjustments ---------- */
+@media (max-width: 768px) {
+
+  .cv-name {
+    font-size: 32px;
+  }
+
+  .cv-subtitle {
+    font-size: 14px;
+  }
+
+  .lead {
+    font-size: 15px;
+  }
+
+  body {
+    line-height: 1.55;
+  }
+
+  .container {
+    padding: 0 18px;
+  }
+
+}
