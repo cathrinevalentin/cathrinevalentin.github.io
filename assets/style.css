@@ -57,7 +57,7 @@ a:hover{
 .cv-nav{
   position: absolute;
   top: 18px;
-  right: 20px;     /* tweak if you want it more/less to the right */
+  right: 50px;     /* tweak if you want it more/less to the right */
   margin-top: 0;
 
   display:flex;
